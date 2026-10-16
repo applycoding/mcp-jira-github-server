@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "jira-github": {
+      "command": "jira-github-mcp",
+      "env": {
+        "MCP_BACKEND": "mock",
+        "MCP_READ_ONLY": "true",
+        "LOG_LEVEL": "INFO"
+      }
+    }
+  }
+}
