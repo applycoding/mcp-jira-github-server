@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "jira-github": {
+      "command": "python",
+      "args": ["-m", "jira_github_mcp"],
+      "env": {
+        "MCP_BACKEND": "mock",
+        "MCP_READ_ONLY": "true",
+        "MCP_TOOL_ALLOWLIST": "",
+        "JIRA_PROJECT_ALLOWLIST": "PLAT",
+        "GITHUB_REPO_ALLOWLIST": "acme/platform",
+        "LOG_LEVEL": "INFO"
+      }
+    }
+  }
+}
